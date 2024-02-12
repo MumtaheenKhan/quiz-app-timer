@@ -8,8 +8,12 @@
 }
 
 body{
-    background: #007bff;
+    background-image: url(quizbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
 }
+
 
 ::selection{
     color: #fff;
@@ -173,7 +177,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #007bff;
+    background: red;
 }
 
 section{
